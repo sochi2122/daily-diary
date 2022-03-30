@@ -1,8 +1,27 @@
 
 module.exports = {
   siteMetadata: {
-    title: ``,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Daily Diary`,
+    siteUrl: `https://dailydiarymaster.gatsbyjs.io/'`,
+    menuLinks:[
+      {
+        name:'home',
+        link:'/'
+      }, 
+      {
+        name:'work',
+        link:'/work'
+      },
+      {
+        name:'freebies',
+        link:'/freebies'
+      },
+
+      {
+        name:'mining',
+        link:'/mining'
+     },
+                 ]
   },
   plugins: [{
     resolve: 'gatsby-source-contentful',
