@@ -1,3 +1,4 @@
+
 module.exports = {
   siteMetadata: {
     title: ``,
@@ -6,8 +7,8 @@ module.exports = {
   plugins: [{
     resolve: 'gatsby-source-contentful',
     options: {
-      "accessToken": "",
-      "spaceId": ""
+      "accessToken": "oYzE-gDP1t4NAwjQKWOzyq7L2NOUzKYRpnDSWFOLlDI",
+      "spaceId": "bkxacgeooq0l"
     }
   }, "gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
